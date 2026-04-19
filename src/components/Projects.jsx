@@ -11,7 +11,7 @@ const Projects = () => {
       description: 'An AI-powered full-stack web application that analyzes startup ideas and generates comprehensive validation reports in seconds — including market analysis, competitor landscape, tech stack suggestions, and risk assessment via Groq LLaMA 3.3.',
       tags: ['React', 'FastAPI', 'PostgreSQL', 'AI (Groq)'],
       github: 'https://github.com/GanpatKumargct/Schmooze-Media',
-      demo: 'https://ai-ideavalidator-iota.vercel.app/submit',
+      demo: 'https://ai-ideavalidator-iota.vercel.app/',
       hasImage: true,
       image: aiValidatorImg
     },
