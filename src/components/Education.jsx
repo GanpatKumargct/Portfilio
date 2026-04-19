@@ -4,10 +4,10 @@ import './Education.css';
 const Education = () => {
   const educationTimeline = [
     {
-      degree: 'B.E Computer Science',
-      institution: 'Anna University',
+      degree: 'BE Computer Science Engineering (7.9 CGPA)',
+      institution: 'Gnanamani College of Technology, Namakkal Tamilnadu',
       period: '2022 - 2026',
-      details: 'Specialized in Human-Computer Interaction and Web Technologies.'
+      details: 'Focusing on core engineering principles, software development, and algorithm design.'
     },
     {
       degree: 'Frontend Development Bootcamp',
