@@ -1,5 +1,5 @@
 import { Mail, Send, Phone } from 'lucide-react';
-import { FaGithub as Github, FaLinkedin as Linkedin } from 'react-icons/fa';
+import { FaGithub as Github, FaLinkedin as Linkedin, FaWhatsapp as Whatsapp } from 'react-icons/fa';
 import './Contact.css';
 
 const Contact = () => {
@@ -21,11 +21,11 @@ const Contact = () => {
                   <span className="contact-value">ganpatkumardev@gmail.com</span>
                 </div>
               </a>
-              
-              <a href="tel:+919955652437" className="contact-detail glass">
-                <div className="contact-icon"><Phone size={24} /></div>
+
+              <a href="https://wa.me/919955652437" target="_blank" rel="noreferrer" className="contact-detail glass">
+                <div className="contact-icon"><Whatsapp size={24} /></div>
                 <div>
-                  <span className="contact-label">Phone</span>
+                  <span className="contact-label">WhatsApp</span>
                   <span className="contact-value">+91 9955652437</span>
                 </div>
               </a>
