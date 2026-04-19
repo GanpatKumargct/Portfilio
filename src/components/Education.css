@@ -1,0 +1,94 @@
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.education-card {
+  padding: 2.5rem 2rem;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+}
+
+.education-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 0;
+  background-color: var(--accent);
+  transition: var(--transition);
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent);
+}
+
+.education-card:hover::before {
+  height: 100%;
+}
+
+.edu-icon-container {
+  width: 3.5rem;
+  height: 3.5rem;
+  background: rgba(14, 165, 233, 0.1);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  color: var(--accent);
+}
+
+.edu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+  gap: 1rem;
+}
+
+.edu-header h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.4;
+}
+
+.edu-period {
+  font-size: 0.85rem;
+  font-family: monospace;
+  color: var(--accent);
+  background: var(--bg-secondary);
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  white-space: nowrap;
+}
+
+.edu-institution {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+
+.edu-details {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 576px) {
+  .edu-header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
