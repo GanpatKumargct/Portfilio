@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { ExternalLink, ChevronLeft, ChevronRight } from 'lucide-react';
 import { FaGithub as Github } from 'react-icons/fa';
 import aiValidatorImg from '../assets/Ai Validator.png';
+import crmToolImg from '../assets/CRM tool.png';
 import './Projects.css';
 
 const Projects = () => {
@@ -16,12 +17,13 @@ const Projects = () => {
       image: aiValidatorImg
     },
     {
-      title: 'Quiz Application',
-      description: 'I built a full-stack Quiz Application enabling users to take quizzes with real-time question loading and result tracking. The project showcases backend development, database integration, and dynamic frontend skills with real-time communication handling.',
-      tags: ['Spring Boot', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
-      github: '#',
+      title: 'AI-First CRM (HCP Module)',
+      description: 'An AI-powered CRM system where users log interactions with Healthcare Professionals (HCPs) using a conversational interface and local voice AI transcription instead of manual form filling.',
+      tags: ['React', 'Redux', 'FastAPI', 'PostgreSQL', 'LangGraph'],
+      github: 'https://github.com/GanpatKumargct/Ai-Powered-CRM',
       demo: '#',
-      hasImage: false
+      hasImage: true,
+      image: crmToolImg
     },
     {
       title: 'E-commerce Platform',
