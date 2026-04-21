@@ -3,6 +3,8 @@ import { ExternalLink, ChevronLeft, ChevronRight } from 'lucide-react';
 import { FaGithub as Github } from 'react-icons/fa';
 import aiValidatorImg from '../assets/Ai Validator.png';
 import crmToolImg from '../assets/CRM tool.png';
+import bookstoreImg from '../assets/bookstore_api_illustration.png';
+import payrollImg from '../assets/Payroll.jpeg';
 import './Projects.css';
 
 const Projects = () => {
@@ -26,28 +28,22 @@ const Projects = () => {
       image: crmToolImg
     },
     {
-      title: 'E-commerce Platform',
-      description: 'A fully responsive online store with dynamic product filtering, a functional shopping cart, and a seamless checkout process.',
-      tags: ['React', 'Spring Boot', 'MySQL'],
+      title: 'Bookstore Management System - REST API',
+      description: 'A backend application built using Java Spring Boot, designed to efficiently manage books, users, and orders through a set of RESTful APIs with JWT authentication and role-based access control.',
+      tags: ['Java', 'Spring Boot', 'MySQL', 'REST API', 'JWT'],
       github: '#',
       demo: '#',
-      hasImage: false
+      hasImage: true,
+      image: bookstoreImg
     },
     {
-      title: 'Task Management App',
-      description: 'A productivity application for organizing tasks with intuitive drag-and-drop functionality and team collaboration features.',
-      tags: ['HTML', 'CSS', 'JavaScript'],
+      title: 'Payroll Management System (PMS)',
+      description: 'A full-stack Payroll Management System featuring automated employee payroll processing, attendance tracking, salary calculation, and role-based access control.',
+      tags: ['Spring Boot', 'Java 17+', 'React.js', 'MySQL', 'JWT'],
       github: '#',
       demo: '#',
-      hasImage: false
-    },
-    {
-      title: 'Weather Dashboard',
-      description: 'Real-time weather application with a 5-day forecast, interactive location search, and map integration.',
-      tags: ['JavaScript', 'REST API', 'CSS'],
-      github: '#',
-      demo: '#',
-      hasImage: false
+      hasImage: true,
+      image: payrollImg
     }
   ];
 
