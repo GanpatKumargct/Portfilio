@@ -1,6 +1,6 @@
 import { Download, ArrowRight, Mail } from 'lucide-react';
 import { FaGithub as Github, FaLinkedin as Linkedin } from 'react-icons/fa';
-import profilePic from '../assets/profile.jpg';
+import profilePic from '../assets/profile.png';
 import './Hero.css';
 
 const Hero = () => {

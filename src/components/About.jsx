@@ -1,5 +1,5 @@
 import { Code, Cpu, Target, Brain } from 'lucide-react';
-import profilePic from '../assets/profile.jpg';
+import profilePic from '../assets/profile.png';
 import './About.css';
 
 const About = () => {
